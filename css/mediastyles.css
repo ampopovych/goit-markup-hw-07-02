@@ -189,6 +189,13 @@
   .btn-list{
    margin-bottom: 64px;
    }
+   .service-list {
+    gap: 72px 16px;
+    justify-content: flex-start;
+   }
+   .service-item-box {
+    max-width: 768px;
+   }
    @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -580,4 +587,10 @@
   .btn-list{
     margin-bottom: 72px;
     }
+    .service-list {
+        gap: 48px 24px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
   }
